@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>Password Generator</h1>
+        <form>
 
-        <label for="">Length</label>
-        <input type="number" id="inputBox">
-        <br>
-        <input type="checkbox" id="toCapital">
-        <label for="">Capital Letter</label>
-        <br>
-        <input type="checkbox" id="toSmall">
-        <label for="">Small Letter</label>
-        <br>
-        <input type="checkbox" id="toNumber">
-        <label for="">Number</label>
-        <br>
-        <input type="checkbox" id="toSymbol">
-        <label for="">Symbol</label>
-        <br>
-        <button id="btn">Generate</button>
-        <p id="result">Generated Password</p>
-        
+            <h1>Password <br>Generator</h1>
+
+            <!-- <label for="">Length</label> -->
+            <input type="number" id="inputBox" placeholder="Length">
+            <br>
+            <input type="checkbox" id="toCapital" >
+            <label for="" class="c-box">Capital Letter</label>
+            <br>
+            <input type="checkbox" id="toSmall">
+            <label for="" class="c-box">Small Letter</label>
+            <br>
+            <input type="checkbox" id="toNumber">
+            <label for="" class="c-box">Number</label>
+            <br>
+            <input type="checkbox" id="toSymbol">
+            <label for="" class="c-box">Symbol</label>
+            <br>
+            <button id="btn">Generate</button>
+            <p id="result">Generated Password</p>
+        </form>
+
     </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
